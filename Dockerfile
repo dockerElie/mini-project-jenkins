@@ -9,7 +9,7 @@ RUN apt-get upgrade -y
 
 #Install required dependencies
 RUN apt-get install -y curl
-RUN apt-get install git
+RUN apt-get install -y git
 
 #Clone repository static website example
 RUN rm -rf /usr/share/nginx/html/*
