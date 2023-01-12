@@ -5,6 +5,7 @@ FROM nginx
 LABEL maintainer="NONO NOUAGONG ELIE MICHEL"
 
 #Install updates
+RUN apt-get update
 RUN apt-get upgrade -y
 
 #Install required dependencies
